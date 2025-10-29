@@ -335,16 +335,16 @@ SoccerNet Tracking [[url]](https://github.com/SoccerNet/sn-tracking)<br>
 
 | metric|formula|
 | :---:|:---:|
-| accuracy| $ Accuracy = {{TP + TN} \over {TP + TN + FP + FN}} $|
-| recall | $ Recall = {TP \over {TP + FN}} = TPR$|
-|precision|$ Precision = {TP \over {TP + FP}} $|
-|MA|$ MA = {FN \over {TP + FN}} $|
-|FA| $ FA = {FP \over {TP + FP}} $|
+| accuracy| $Accuracy = {{TP + TN} \over {TP + TN + FP + FN}}$|
+| recall | $Recall = {TP \over {TP + FN}} = TPR$|
+|precision|$Precision = {TP \over {TP + FP}}$|
+|MA|$MA = {FN \over {TP + FN}}$|
+|FA| $FA = {FP \over {TP + FP}}$|
 | MOTA| $MOTA = 1 - {\sum_t(FN + FP + IDs)\over \sum_t gt}$|
-|MOTP|$ MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$|
-|IDP|$ IDP = {IDTP \over {IDTP + IDFP}} $|
-|IDR| $ IDR = {IDTP \over {IDTP + IDFN}} $|
-|IDF1| $ IDF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}} $|
+|MOTP|$MOTP = {\sum_{t,i}d_t^i \over \sum_tc_t }$|
+|IDP|$IDP = {IDTP \over {IDTP + IDFP}}$|
+|IDR| $IDR = {IDTP \over {IDTP + IDFN}}$|
+|IDF1| $DF1 = {2 \over {{1 \over IDP} + {1 \over IDR}}} = {2IDTP \over {2IDTP + IDFP + IDFN}}$|
 
 [Evaluation code](https://github.com/cheind/py-motmetrics)
 
